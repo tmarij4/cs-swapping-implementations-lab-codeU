@@ -24,7 +24,7 @@ public class ListClientExampleTest {
 	public void testListClientExample() {
 		ListClientExample lce = new ListClientExample();
 		List list = lce.getList();
-		assertThat(list, instanceOf(ArrayList.class) );
+		assertThat(list, instanceOf(List.class) );
 	}
 
 }
